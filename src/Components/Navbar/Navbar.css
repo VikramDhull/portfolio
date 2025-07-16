@@ -1,0 +1,26 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 120px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  font-family: "outfit";
+  font-weight: 400;
+}
+.nav-menu :hover {
+  margin-bottom: 1px;
+  color: #e63946;
+  cursor: pointer;
+}
+
+.navbar h1 {
+  color: #e63946;
+}

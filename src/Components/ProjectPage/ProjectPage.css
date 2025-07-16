@@ -1,0 +1,47 @@
+.project-main {
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  justify-content: center;
+}
+
+.project-main h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: #e63946;
+  text-align: center;
+}
+
+.project-data {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 300px;
+  height: 420px;
+  background-color: #1c1c1e;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

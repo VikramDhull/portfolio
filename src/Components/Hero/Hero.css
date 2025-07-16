@@ -1,0 +1,43 @@
+/* Container styles */
+.hero {
+  height: calc(100vh - 60px); /* Full viewport height */
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: space-between; /* Space between text and image */
+  gap: 40px;
+  padding: 0 120px; /* Horizontal breathing room */
+  flex-wrap: wrap; /* Wrap on smaller screens */
+  box-sizing: border-box; /* Prevent overflow from padding */
+}
+
+/* Hero image styling */
+.hero img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Text content */
+.hero p {
+  font-size: 3rem;
+  margin: 8px 0; /* Add spacing between lines */
+}
+
+/* Emphasized name */
+.hero p b {
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #e63946, #ff4d4d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Action buttons container */
+.hero-action {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* For better mobile responsiveness */
+}

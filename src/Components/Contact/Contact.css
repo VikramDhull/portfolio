@@ -1,0 +1,133 @@
+.contact-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-main-heading {
+  font-size: 3rem;
+  color: #e63946;
+  text-align: center;
+}
+.contact-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 120px;
+  gap: 100px;
+}
+
+/* ADDRESS */
+
+.address {
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 330px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.address h1 {
+  font-size: 1.8rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+.address p {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 30px;
+}
+.address-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 15px;
+  gap: 10px;
+  transition: transform 0.2s ease-in-out;
+  margin-left: 80px;
+}
+.address-social-link img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  transition: border-color 0.3s ease;
+}
+.address-social-link a {
+  text-decoration: none;
+  color: #e63946;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.address-social-link:hover {
+  transform: scale(1.05);
+}
+.address-social-link:hover img {
+  border-color: #e63946;
+}
+
+/* FORM */
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.form-main h1 {
+  color: #777;
+  text-align: start;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-left: 2.5rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+.name-row {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* external css */
+
+.address-social-links img {
+  width: 25px;
+}
+
+.name-row .custom-textfield {
+  flex: 1;
+}
+
+.custom-textfield.MuiTextField-root {
+  width: 100%;
+}
+
+.custom-textfield .MuiInputBase-input {
+  color: white;
+}
+
+.custom-textfield label {
+  color: gray;
+}
+
+.custom-textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.custom-textfield
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #e63946;
+}
+
+.custom-textfield
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}

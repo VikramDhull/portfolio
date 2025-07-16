@@ -1,0 +1,81 @@
+/* .address {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.address h1 {
+  font-size: 2rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+.address p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.address a {
+  text-decoration: none;
+  color: #e63946;
+  margin-bottom: 0.5rem;
+}
+
+.address img {
+  width: 1rem;
+} */
+
+/* Address.css */
+
+.address {
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 330px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.address h1 {
+  font-size: 2rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.address p {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.address-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 15px;
+  gap: 10px;
+  transition: transform 0.2s ease-in-out;
+  margin-left: 100px;
+}
+
+.address-social-links img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  transition: border-color 0.3s ease;
+}
+
+.address-social-links a {
+  text-decoration: none;
+  color: #e63946;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.address-social-links:hover {
+  transform: scale(1.05);
+}
+
+.address-social-links:hover img {
+  border-color: #e63946;
+}

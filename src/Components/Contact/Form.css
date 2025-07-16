@@ -1,0 +1,67 @@
+body {
+  background-color: #121212;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.form-main h1 {
+  color: #777;
+  text-align: start;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+.name-row {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.name-row .custom-textfield {
+  flex: 1;
+}
+
+.custom-textfield.MuiTextField-root {
+  width: 100%;
+}
+
+.custom-textfield .MuiInputBase-input {
+  color: white;
+}
+
+.custom-textfield label {
+  color: gray;
+}
+
+.custom-textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.custom-textfield
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #e63946;
+}
+
+.custom-textfield
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
