@@ -15,6 +15,10 @@
   font-family: "outfit";
   font-weight: 400;
 }
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
 .nav-menu :hover {
   margin-bottom: 1px;
   color: #e63946;

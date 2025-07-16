@@ -10,7 +10,7 @@ import SendIcon from "@mui/icons-material/Send";
 const Contact = () => {
   return (
     <>
-      <div className="contact-main">
+      <div className="contact-main" id="contact">
         <h1 className="contact-main-heading">Contact</h1>
         <div className="contact-body">
           <div className="address">
@@ -20,19 +20,43 @@ const Contact = () => {
             <div className="address-social-links">
               <div className="address-social-link">
                 <img src={github}></img>
-                <a href="#">Github</a>
+                <a
+                  href="https://github.com/VikramDhull"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </a>
               </div>
               <div className="address-social-link">
                 <img src={linkedin}></img>
-                <a href="#">Linkedin</a>
+                <a
+                  href="https://www.linkedin.com/in/vikramdhull/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Linkedin
+                </a>
               </div>
               <div className="address-social-link">
                 <img src={leetcode}></img>
-                <a href="#">Leetcode</a>
+                <a
+                  href="https://leetcode.com/u/viikramdhull/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Leetcode
+                </a>
               </div>
               <div className="address-social-link">
                 <img src={instagram}></img>
-                <a href="#">Instagram</a>
+                <a
+                  href="https://www.instagram.com/vikramdhull.jordan/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Instagram
+                </a>
               </div>
             </div>
           </div>

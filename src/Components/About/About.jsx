@@ -4,7 +4,7 @@ import ProfileCard from "./ProfileCard";
 const About = () => {
   return (
     <>
-      <div className="about">
+      <div className="about" id="about">
         <h1>About me</h1>
         <div className="about-body">
           <div className="left-screen">

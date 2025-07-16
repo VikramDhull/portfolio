@@ -1,11 +1,12 @@
 import "./Hero.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import hero from "../../assets/hero.png";
 import Button from "@mui/material/Button";
 import DownloadIcon from "@mui/icons-material/Download";
 import MailIcon from "@mui/icons-material/Mail";
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <div>
         <p>Hello,</p>
         <p>
@@ -16,9 +17,11 @@ function Hero() {
           <Button color="error" variant="outlined" startIcon={<DownloadIcon />}>
             Resume
           </Button>
-          <Button color="error" variant="outlined" startIcon={<MailIcon />}>
-            Contact
-          </Button>
+          <AnchorLink href="#contact">
+            <Button color="error" variant="outlined" startIcon={<MailIcon />}>
+              Contact
+            </Button>
+          </AnchorLink>
         </div>
       </div>
       <img src={hero} alt="" />
